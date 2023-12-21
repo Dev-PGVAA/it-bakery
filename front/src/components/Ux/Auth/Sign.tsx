@@ -9,7 +9,7 @@ const Sign: FC = () => {
 				<div className='container'>
 					<div className='signin-content'>
 						<div className='signin-form'>
-							<h2 className='form-title'>Регистрация</h2>
+							<h2 className='form-title'>Sign Up</h2>
 							<form method='POST' className='register-form' id='login-form'>
 								<div className='form-group'>
 									<label htmlFor='your_name'>
@@ -19,7 +19,7 @@ const Sign: FC = () => {
 										type='text'
 										name='your_name'
 										id='your_name'
-										placeholder='Логин'
+										placeholder='Login'
 									/>
 								</div>
 								<div className='form-group'>
@@ -30,7 +30,7 @@ const Sign: FC = () => {
 										type='text'
 										name='your_name'
 										id='your_name'
-										placeholder='Почта'
+										placeholder='Mail'
 									/>
 								</div>
 								<div className='form-group'>
@@ -41,19 +41,11 @@ const Sign: FC = () => {
 										type='password'
 										name='your_pass'
 										id='your_pass'
-										placeholder='Пароль'
-									/>
-								</div>
-								<div className='form-group'>
-									<input
-										type='checkbox'
-										name='remember-me'
-										id='remember-me'
-										className='agree-term'
+										placeholder='Password'
 									/>
 								</div>
 								<div id='dontacc'>
-									<Link href='LogIn'>Уже есть аккаунт?</Link>
+									<Link href='LogIn'>Already have an account?</Link>
 								</div>
 								<div className='form-group form-button'>
 									<input
@@ -61,7 +53,7 @@ const Sign: FC = () => {
 										name='signin'
 										id='signin'
 										className='form-submit'
-										value='Зарегистрироваться'
+										value='Sign up'
 									/>
 								</div>
 							</form>

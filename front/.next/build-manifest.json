@@ -17,15 +17,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/index.js"
     ],
-    "/LogIn": [
+    "/AboutUs": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/LogIn.js"
-    ],
-    "/SignUp": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/SignUp.js"
+      "static/chunks/pages/AboutUs.js"
     ],
     "/_app": [
       "static/chunks/webpack.js",

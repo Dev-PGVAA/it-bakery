@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { FC, PropsWithChildren } from 'react'
 
-const getTitle = (title: string) => `${title} | It-Bakery`
+const getTitle = (title: string) => `${title} | IT-Bakery`
 
 const Meta: FC<PropsWithChildren<IMeta>> = ({
 	title,
@@ -21,8 +21,8 @@ const Meta: FC<PropsWithChildren<IMeta>> = ({
 				) : (
 					<meta name='robots' content='noindex, nofollow' />
 				)}
-				{children}
 			</Head>
+			{children}
 		</>
 	)
 }

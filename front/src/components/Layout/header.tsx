@@ -20,21 +20,21 @@ const header: FC = () => {
 				src='/images/mainI.svg'
 			/>
 			<span id='title'>
-				<Link href='/'>IT-ПЕКАРНЯ</Link>
+				<Link href='/'>IT-Bakery</Link>
 			</span>
 
 			<div className='links'>
 				<span>
-					<Link href='/'>Товары</Link>
+					<Link href='/'>Products </Link>
 				</span>
 				<span>
-					<Link href='Cart'>Корзина</Link>
+					<Link href='/Basket'>Basket</Link>
 				</span>
 				<span>
-					<Link href='AboutUs'>О нас</Link>
+					<Link href='/AboutUs'>About Us</Link>
 				</span>
 				<span>
-					<Link href='LogIn'>Войти</Link>
+					<Link href='/LogIn'>Auth</Link>
 				</span>
 			</div>
 			<div className='burger'>
@@ -44,16 +44,16 @@ const header: FC = () => {
 				</div>
 				<div className={isClass ? 'linksBurger active' : 'linksBurger'}>
 					<p>
-						<Link href='/'>Товары</Link>
+						<Link href='/'>Products</Link>
 					</p>
 					<p>
-						<Link href='Cart'>Корзина</Link>
+						<Link href='/Basket'>Basket</Link>
 					</p>
 					<p>
-						<Link href='AboutUs'>О нас</Link>
+						<Link href='/AboutUs'>About Us</Link>
 					</p>
 					<p>
-						<Link href='LogIn'>Войти</Link>
+						<Link href='/LogIn'>Auth</Link>
 					</p>
 				</div>
 			</div>

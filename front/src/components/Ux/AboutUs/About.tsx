@@ -11,11 +11,11 @@ const About: FC = () => {
 				alt='photo bakery'
 			/>
 			<div className='aboutUs-text'>
-				<h1>О нас</h1>
+				<h1>About Us</h1>
 				<br />
 				<p>
-					IT-пекарня - это маленькая команда профессионалов, которая предлагает
-					своим клиентам широкий выбор товаров для приготовления еды.
+				IT bakery is a small team of professionals that offers
+				Its customers have a wide range of products for cooking.
 				</p>
 			</div>
 		</div>

@@ -1,0 +1,33 @@
+.erCont {
+	height: 100vh;
+	text-align: center;
+	& h1{
+		margin-top: calc(50vh - 300px);
+		font-size: 300px;
+	}
+	& h2{
+		font-size: 50px;
+	}
+}
+@media (max-width: 800px){
+	.erCont {
+		& h1{
+			margin-top: calc(50vh - 200px);
+			font-size: 200px;
+		}
+		& h2{
+			font-size: 40px;
+		}
+	}
+}
+@media (max-width: 500px){
+	.erCont {
+		& h1{
+			margin-top: calc(50vh - 150px);
+			font-size: 150px;
+		}
+		& h2{
+			font-size: 30px;
+		}
+	}
+}
